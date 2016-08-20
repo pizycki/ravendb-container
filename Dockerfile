@@ -2,7 +2,7 @@
 # docker build --no-cache -t pizycki/ravendb:latest .
 
 # RUN WITH THIS COMMAND
-# docker run -dt -p 8080:8080 pizycki/ravendb
+# docker run -it -p 8080:8080 pizycki/ravendb
 
 FROM microsoft/windowsservercore
 MAINTAINER pizycki 
