@@ -15,7 +15,7 @@ To install Windows Containers on your machine follow this [guide](https://msdn.m
 Run server on port `8080` in `debug` mode and interactive console.
 
 ```
-docker run -it -p 8080:8080 pizycki/ravendb
+docker run -it -p 8080:8080 pizycki/ravendb:latest
 ```
 
 ---
@@ -23,6 +23,8 @@ docker run -it -p 8080:8080 pizycki/ravendb
 
 Build image with this command
 
+Remember to replace `<tag>` with actual tag, i.e.: RavenDB version.
+
 ```
-docker build --no-cache -t pizycki/ravendb:latest .
+docker build -t pizycki/ravendb:<tag> .
 ```
